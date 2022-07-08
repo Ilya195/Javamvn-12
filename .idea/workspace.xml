@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6eabbbdd-f849-4176-8a46-94b73198bd2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/javaqamvn12/services/ProductRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/javaqamvn12/services/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/javaqamvn12/services/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/javaqamvn12/services/ProductManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/javaqamvn12/services/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/javaqamvn12/services/Smartphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProductManagerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProductRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/javaqamvn12/services/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/javaqamvn12/services/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/javaqamvn12/services/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/javaqamvn12/services/ProductRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,36 +33,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "D:/Second Rp/Javaqamvn12/src/main/java/ru/netology/javaqamvn12/services"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/Second Rp/Javaqamvn12/src/main/java/ru/netology/javaqamvn12/services&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean test" />
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductRepositoryTest.test5">
+  <component name="RunManager" selected="JUnit.ProductRepositoryTest.showSearchByProduct">
     <configuration name="ProductRepositoryTest.showAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaqamvn12" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ProductRepositoryTest" />
       <option name="METHOD_NAME" value="showAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepositoryTest.showMeSetGetId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Javaqamvn12" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductRepositoryTest" />
-      <option name="METHOD_NAME" value="showMeSetGetId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,6 +78,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductRepositoryTest.showSearchByProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Javaqamvn12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.javaqamvn12.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.javaqamvn12.services" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.javaqamvn12.services.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="showSearchByProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductRepositoryTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaqamvn12" />
       <option name="PACKAGE_NAME" value="" />
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductRepositoryTest.showSearchByProduct" />
         <item itemvalue="JUnit.ProductRepositoryTest.test5" />
         <item itemvalue="JUnit.ProductRepositoryTest.showAdd" />
         <item itemvalue="JUnit.ProductRepositoryTest.showMeSetGetName" />
         <item itemvalue="JUnit.ProductRepositoryTest.showMeSetGetPrice" />
-        <item itemvalue="JUnit.ProductRepositoryTest.showMeSetGetId" />
       </list>
     </recent_temporary>
   </component>
@@ -135,5 +135,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/javaqamvn12/services/ProductRepositoryTest.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

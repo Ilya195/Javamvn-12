@@ -125,19 +125,8 @@ public class ProductRepositoryTest {
         product.add(product5);
         product.add(book);
 
-        Product[] expected = {};
+        Product[] expected = {product1};
         Product[] actual = product.searchBy("Овощи");
-
-        Assertions.assertArrayEquals(expected, actual);
-    }
-
-    @Test
-    public void showMeOneSearch() {
-        Repository repository = new Repository();
-        ProductManager product = new ProductManager(repository);
-
-        Product[] expected = {};
-        Product[] actual = product.searchBy("Мясо");
 
         Assertions.assertArrayEquals(expected, actual);
     }
